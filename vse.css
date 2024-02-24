@@ -213,28 +213,34 @@
 
 
 .girl{
+    display: flex;
+    justify-content: flex-end;
     width: 1000px;
     height: 800px;
-    left: 850px;
-    top: 200px;
+    margin-left: 850px;
+    margin-top: -550px;
 }
 
 .sunny1{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 296px;
     height: 296px;
     margin-left: 925px;
-    margin-top: 1px;
+    margin-top: -500px;
     background: #FF9CE3;
     filter: blur(87.5px);
 }
 
 .sunny2{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 296px;
     height: 296px;
-    left: 1200px;
-    top: 500px;
+    margin-left: 1200px;
+    margin-top: -590px;
     background: #FF9CE3;
     filter: blur(87.5px);
 }
@@ -251,7 +257,7 @@
     background: #FF3366;
     border-radius: 7px;
     transition: 0.3s;
-    margin-top: -1772px;
+    margin-top: 195px;
     margin-left: 400px;
 }
 
